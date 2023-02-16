@@ -1,0 +1,21 @@
+import Race from './Race';
+
+class Dwarf extends Race {
+  private _maxLifePoints = 80;
+  private static raceCount = 0;
+
+  constructor(name: string, dexterity: number) {
+    super(name, dexterity);
+    Dwarf.raceCount += 1;
+  }
+  
+  get maxLifePoints(): number {
+    return this._maxLifePoints;
+  }
+
+  public static createdRacesInstances(): number {
+    return this.raceCount;
+  }
+}
+
+export default Dwarf;
