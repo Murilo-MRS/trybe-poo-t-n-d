@@ -18,6 +18,5 @@ class Mage extends Archetype {
     return this.archetypeCount;
   }
 }
-// const a = new Mage('Marcelo');
-// console.log(a.name);
+
 export default Mage;
