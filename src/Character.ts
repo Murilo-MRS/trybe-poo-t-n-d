@@ -55,7 +55,8 @@ class Character implements Fighter {
   }
 
   public get energy() : Energy {
-    return this._energy;
+    const energy = { ...this._energy };
+    return energy;
   }
 
   attack(enemy: Fighter): void {
