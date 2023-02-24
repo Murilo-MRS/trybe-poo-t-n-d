@@ -9,12 +9,12 @@ Projeto realizado durante módulo de Back-end do curso de desenvolvimento web da
   
   A aplicação foi desenvolvida com:
 
-- `Node.js`
-- `TypeScript`
-- `POO`
-- `docker`
-- `docker-compose`
-- `S.O.L.I.D`
+-`Node.js`
+-`TypeScript`
+-`POO`
+-`docker`
+-`docker-compose`
+-`S.O.L.I.D`
 
 </details>
 <details>
